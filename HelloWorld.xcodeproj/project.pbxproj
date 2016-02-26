@@ -13,6 +13,8 @@
 		2C4BA8DE1C7FF394001938EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BA8DC1C7FF394001938EA /* Main.storyboard */; };
 		2C4BA8E01C7FF394001938EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BA8DF1C7FF394001938EA /* Assets.xcassets */; };
 		2C4BA8E31C7FF394001938EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BA8E11C7FF394001938EA /* LaunchScreen.storyboard */; };
+		2C4BA8ED1C7FF944001938EA /* ChinaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BA8EB1C7FF944001938EA /* ChinaController.m */; };
+		2C4BA8EE1C7FF944001938EA /* ChinaController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BA8EC1C7FF944001938EA /* ChinaController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		2C4BA8DF1C7FF394001938EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C4BA8E21C7FF394001938EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C4BA8E41C7FF394001938EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4BA8EA1C7FF944001938EA /* ChinaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChinaController.h; sourceTree = "<group>"; };
+		2C4BA8EB1C7FF944001938EA /* ChinaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChinaController.m; sourceTree = "<group>"; };
+		2C4BA8EC1C7FF944001938EA /* ChinaController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChinaController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				2C4BA8E11C7FF394001938EA /* LaunchScreen.storyboard */,
 				2C4BA8E41C7FF394001938EA /* Info.plist */,
 				2C4BA8D31C7FF394001938EA /* Supporting Files */,
+				2C4BA8EA1C7FF944001938EA /* ChinaController.h */,
+				2C4BA8EB1C7FF944001938EA /* ChinaController.m */,
+				2C4BA8EC1C7FF944001938EA /* ChinaController.xib */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -139,6 +147,7 @@
 				2C4BA8E31C7FF394001938EA /* LaunchScreen.storyboard in Resources */,
 				2C4BA8E01C7FF394001938EA /* Assets.xcassets in Resources */,
 				2C4BA8DE1C7FF394001938EA /* Main.storyboard in Resources */,
+				2C4BA8EE1C7FF944001938EA /* ChinaController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +161,7 @@
 				2C4BA8DB1C7FF394001938EA /* ViewController.m in Sources */,
 				2C4BA8D81C7FF394001938EA /* AppDelegate.m in Sources */,
 				2C4BA8D51C7FF394001938EA /* main.m in Sources */,
+				2C4BA8ED1C7FF944001938EA /* ChinaController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +308,7 @@
 				2C4BA8E91C7FF394001938EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
