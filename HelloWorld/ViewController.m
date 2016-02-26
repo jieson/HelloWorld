@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ChinaController.h"
 @interface ViewController ()
 
 @end
@@ -22,6 +22,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)clickBtn:(id)sender {
+    ChinaController *vc = [[ChinaController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

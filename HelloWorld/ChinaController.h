@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ChinaController.h
 //  HelloWorld
 //
 //  Created by JM(jieson) on 16/2/26.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-
+@interface ChinaController : UIViewController
 
 @end
-
